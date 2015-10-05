@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/nomeLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/nome"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nomeTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/dataNascimentoLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3.7"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/dataDeNascimento"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+
+              />
+
+            <TextView
+                android:id="@+id/dataNascimentoTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="5"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/descricaoLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/descricao"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/descricaoTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="2"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/diagnosticoLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/diagnostico"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/diagnosticoTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/quartoLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/quarto"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/quartoTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1.5"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/dataDeAdmissaoLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3.1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/dataDeAdmissao"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/dataDeAdmissaoTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

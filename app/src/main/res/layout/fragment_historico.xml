@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/fumanteLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/fumante"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"/>
+
+            <CheckBox
+                android:id="@+id/fumanteCheckBox"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="2"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/usoDeAlcoolLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/usoDeAlcool"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <CheckBox
+                android:id="@+id/usoDeAlcoolCheckBox"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:clickable="false"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/usoDeDrogasLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/usoDeDroga"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"/>
+
+            <CheckBox
+                android:id="@+id/usoDeDrogaCheckBox"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:clickable="false"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="7"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/alergiasLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/alergias"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/alergiasTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="7"
+            android:background="@android:drawable/editbox_background">
+
+            <TextView
+                android:id="@+id/infoAdicionalLabelTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/infoAdicional"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/infoAdicionalTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

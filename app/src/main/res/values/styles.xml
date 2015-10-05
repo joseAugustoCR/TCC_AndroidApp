@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- ListaDePacientesActivity  theme. -->
+    <style name="PatientsActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/PatientsActivityTheme.ActionBar</item>
+
+    </style>
+
+    <style name="PatientsActivityTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/bg_login</item>
+        <item name="android:text">@string/title_activity_patients</item>
+        <item name="android:titleTextStyle">@style/PatientsActivityTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:logo">@android:color/transparent</item>
+
+
+
+    </style>
+
+    <style name="PatientsActivityTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+
+
+
+
+    <style name="PacienteActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">#26ae90</item>
+        <item name="colorPrimary">#27bfa0</item>
+        <item name="android:textColorPrimary">#fdfff2</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/background_dark</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="colorControlNormal">@android:color/background_dark</item>
+        <item name="colorControlActivated">#dc1c6e59</item><!--  Item do navigation selecionado em drawable   -->
+        <item name="colorControlHighlight">#dc165241</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/my_background</item>
+
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <ImageView
+                android:id="@+id/temperaturaImageView"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_temperatura"
+          />
+
+            <TextView
+                android:id="@+id/temperaturaTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <ImageView
+                android:id="@+id/taxaBatimentosImageView"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_batimentos"
+                />
+
+            <TextView
+                android:id="@+id/taxaBatimentosTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text=""/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <ImageView
+                android:id="@+id/pressaImageView"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_pressao"
+                />
+
+            <TextView
+                android:id="@+id/pressaoTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text=""/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <ImageView
+                android:id="@+id/glicoseImageView"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_glicose"
+                />
+
+            <TextView
+                android:id="@+id/glicoseTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text=""/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <ImageView
+                android:id="@+id/saturacaoOxigenioImageView"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_o2"
+                />
+
+            <TextView
+                android:id="@+id/saturacaoOxigenioTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text=""/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:padding="15dip"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background">
+
+            <ImageView
+                android:id="@+id/funcaoPulmonarImageView"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_pulmao"
+                />
+
+            <TextView
+                android:id="@+id/funcaoPulmonarTextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint=""
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text=""/>
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TCC_App_v1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+
+    <string name="ok">Ok</string>
+    <string name="title_activity_patients">Pacientes</string>
+
+
+    <string name="title_activity_patient_details">Detalhes do paciente</string>
+    <string name="patient_description">Descrição: </string>
+    <string name="title_activity_paciente">PacienteActivity</string>
+
+    <string name="title_section1">Informações</string>
+    <string name="title_section2">Monitorar</string>
+    <string name="title_section3">Histórico</string>
+    <string name="title_section4">Diagnosticar</string>
+    <string name="title_section5">Evolução</string>
+    <string name="title_section6">Requisição</string>
+
+    <string name="menu_paciente">Menu do Paciente</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="logout">Log out</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nome">Nome:</string>
+    <string name="dataDeNascimento">Data de nascimento:</string>
+    <string name="descricao">Descrição:</string>
+    <string name="diagnostico">Diagnóstico:</string>
+    <string name="quarto">Quarto:</string>
+    <string name="dataDeAdmissao">Data de admissão:</string>
+
+
+    <string name="fumante">Fumante:</string>
+    <string name="usoDeAlcool">Uso de álcool:</string>
+    <string name="usoDeDroga">Uso de drogas:</string>
+    <string name="alergias">Alergias:</string>
+    <string name="infoAdicional">Informações adicionais:</string>
+
+
+    <!-- Fragment Evolução -->
+    <string name="registrar">Registrar</string>
+    <string name="descricaoHint">Descrição</string>
+
+    <string name="doseHint">Dose</string>
+
+    <string name="observacoesHint">Observações</string>
+
+
+
+</resources>
